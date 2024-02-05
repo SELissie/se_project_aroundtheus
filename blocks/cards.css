@@ -7,7 +7,6 @@
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 282px);
   grid-gap: 20px 17px;
-
   margin: 0;
   padding: 0;
 }
@@ -44,5 +43,10 @@
   background: transparent url(../images/Like\ button.svg) center no-repeat;
   width: 21px;
   height: 18px;
+  border-style: none;
+}
+
+.card__like-button:hover {
+  background: transparent url(../images/Like\ button-hover.svg) center no-repeat;
   border-style: none;
 }
