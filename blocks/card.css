@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Inter";
+  line-height: 29px;
+  font-weight: 900;
+  font-size: 24px;
+  color: #000;
+  margin: 0;
+}
+
+.card__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.card__like-button {
+  background: transparent url(../images/Like\ button.svg) center no-repeat;
+  width: 21px;
+  height: 18px;
+  padding: 0;
+  border-style: none;
+  cursor: pointer;
+}
+
+.card__like-button:hover {
+  background: transparent url(../images/Like\ button-hover.svg) center no-repeat;
+}

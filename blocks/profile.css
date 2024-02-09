@@ -24,8 +24,11 @@
 .profile__name {
   font-size: 42px;
   line-height: 1.1;
-  font-weight: 500px;
+  font-weight: 500;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   grid-area: name;
 }
 
@@ -35,20 +38,23 @@
   width: 24px;
   height: 24px;
   grid-area: button;
-  border-style: none;
   margin-left: 18px;
+  border-style: none;
+  cursor: pointer;
 }
 
 .profile__edit-button:hover {
   background: transparent url(../images/Edit_Button-hover.svg) center no-repeat;
-  border-style: none;
 }
 
 .profile__descript {
   font-size: 18px;
   line-height: 1.2;
-  font-weight: 400px;
+  font-weight: 400;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   grid-area: description;
 }
 
@@ -56,16 +62,16 @@
   background: transparent url(../images/Add\ Button.svg) center no-repeat;
   width: 150px;
   height: 50px;
-  border-style: none;
   margin-left: auto;
+  border-style: none;
+  cursor: pointer;
 }
 
 .profile__add-button:hover {
   background: transparent url(../images/Add\ Button-hover.svg) center no-repeat;
-  border-style: none;
 }
 
-@media screen and (max-width: 1116px) {
+/*@media screen and (max-width: 1116px) {
   .profile__name {
     font-size: 40px;
     line-height: 1.1;
@@ -77,17 +83,12 @@
     font-size: 38px;
     line-height: 1.1;
   }
-}
-
-@media screen and (max-width: 999px) {
-  .profile__name {
-    font-size: 32px;
-    line-height: 1.1;
-  }
-}
+}*/
 
 @media screen and (max-width: 870px) {
   .profile__info {
+    /*font-size: 32px;
+    line-height: 1.1;*/
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -126,8 +127,8 @@
   }
 
   .profile__name {
-    font-size: 28px;
-    line-height: 1.1;
+    /*font-size: 28px;
+    line-height: 1.1;*/
     align-self: center;
     margin-top: 20px;
   }
@@ -136,11 +137,12 @@
     margin-top: 20px;
     margin-left: 15px;
     padding: 0;
+    border-style: none;
   }
 
   .profile__descript {
-    font-size: 20px;
-    line-height: 1.2;
+    /*font-size: 20px;
+    line-height: 1.2;*/
     width: 100%;
     text-align: center;
     margin-top: 15px;
@@ -169,13 +171,17 @@
   .profile__name {
     margin-top: 40px;
     font-size: 22px;
-    line-height: 1.21px;
+    line-height: 1.21;
   }
 
   .profile__edit-button {
     margin-top: 30px;
-    align-items: center;
+    width: 18px;
+    height: 18px;
+    align-self: center;
     padding: 0;
+    margin: 40px 0 0 10px;
+    border-style: solid;
   }
 
   .profile__descript {
@@ -188,6 +194,7 @@
 
   .profile__add-button {
     margin: 0;
+    width: 282px;
     width: 100%;
     margin-top: 30px;
     padding: 0;
