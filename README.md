@@ -1,4 +1,4 @@
-#Around The U.S.
+# Around The U.S.
 
 This is the third project of the Software Engineering Program at TripleTen. It was created using HTML and CSS, based on a Figma design with no brief.
 
