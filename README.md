@@ -17,3 +17,4 @@ Incorporating JavaScript and additional interactive features, the ability to be 
 **Project Link**
 
 - [Link to the project](https://selissie.github.io/se_project_aroundtheus/)
+- [Link to the project video](https://www.loom.com/share/21a3a1d7516347cc9d335b732564238a?sid=0b90e43c-fb33-4b7c-9c76-51fed0109dc1)
